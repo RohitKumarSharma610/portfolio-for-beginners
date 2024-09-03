@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-beautiful-autumn-leaves-with-copy-space_23-2148769090.jpg?size=626&ext=jpg&ga=GA1.1.1266433093.1723779885&semt=ais_hybrid);
+    background-size: contain;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size:22px;
+    font-weight: 900;
+    margin: 5px;
+    color: rgba(252, 252, 253, 0.97);
+    margin-right: 25px;
+    /* color: rgba(47, 47, 248, 0.97);
+    position: relative;
+    top: 30px; */
+}
+
+.head ul {
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+.b {
+    font-size:3rem;
+    /* color: rgb(0, 238, 246)!important; */
+    color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 131, 8);
+}
+.head {
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(60, 57, 57, 0.604);
+    color: white;
+    /* background: repeating-linear-gradient(45deg, #54a0c07c, #ebf8e182 15%, #f5cea480 20%);
+    color: rgb(15, 160, 136); */
+}
+
+
+.body-screen {
+    height: 100vh;
+    width: 100vh;
+    display: inline;
+}
+.head2 {
+    font-size: 50px;
+    margin: 40px;
+    color: white;
+    text-shadow: 10px 10px 2px rgba(2, 3, 3, 0.5);
+}
+
+.photo {
+    background-image: url("https://media.istockphoto.com/id/641950320/photo/blank-picture-frame-template-interior-wall.webp?b=1&s=612x612&w=0&k=20&c=0B_ZOhJtKzG70W1sfhicw7XdmUuXQFQq8r2AMvbnPYw=");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 70px;
+    overflow: hidden;
+}
+.photo1 {
+    background-image: url("https://www.shutterstock.com/image-vector/vector-illustration-hands-graphic-halftone-260nw-2320022869.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 50px;
+    overflow: hidden;
+}
+
+p {
+    font-size: 19px;
+    color: white;
+}
+
+.p3 {
+    font-size: 29px;
+}
+
+.p4 {
+    margin-bottom: 29px;
+}
+
+.logo {
+    font-size: 35px;
+    padding:  10px;
+    background-color: rgba(131, 86, 47, 0.358);
+}
+
+
+.logo a{
+    text-decoration: none;
+    padding:  5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo a i{
+    color: black;
+    opacity: 0,9;
+    
+}
+.logo a:hover{
+    background-color: #111;
+    transition: 0.5s;
+    
+}
+.logo a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.foot {
+    height: 35px;
+    padding: 10px;
+    background-color: rgb(60, 57, 57);
+    color: white;
+}
+
+@media screen and (max-width:560px) {
+    .photo ,.photo1 {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+}

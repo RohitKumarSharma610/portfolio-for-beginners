@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-beautiful-autumn-leaves-with-copy-space_23-2148769090.jpg?size=626&ext=jpg&ga=GA1.1.1266433093.1723779885&semt=ais_hybrid);
+    background-size: contain;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    font-size:22px;
+    font-weight: 900;
+    margin: 5px;
+    color: rgba(252, 252, 253, 0.97);
+    margin-right: 25px;
+}
+
+.head ul {
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+.b {
+    font-size: 3rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 131, 8);
+}
+.head {
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(60, 57, 57, 0.604);
+    color: white;
+}
+
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.thankyou {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.728);
+    text-align: center;
+    font-size: 2rem;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px;
+}
+
+.logo {
+    font-size: 35px;
+    padding:  10px;
+    background-color: rgba(131, 86, 47, 0.358);
+}
+
+
+.logo a{
+    text-decoration: none;
+    padding:  5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo a i{
+    color: black;
+    opacity: 0,9;
+    
+}
+.logo a:hover{
+    background-color: #111;
+    transition: 0.5s;
+    
+}
+.logo a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.foot {
+    height: 35px;
+    padding: 10px;
+    background-color: rgb(60, 57, 57);
+    color: white;
+}

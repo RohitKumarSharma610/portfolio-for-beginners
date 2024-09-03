@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-beautiful-autumn-leaves-with-copy-space_23-2148769090.jpg?size=626&ext=jpg&ga=GA1.1.1266433093.1723779885&semt=ais_hybrid);
+    background-size: contain;
+    text-align: center;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 5px;
+    color: rgba(252, 252, 253, 0.97);
+    margin-right: 25px;
+}
+
+.head ul {
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+.b {
+    font-size: 3rem;
+    color: white;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: rgb(255, 131, 8);
+}
+.head {
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(60, 57, 57, 0.604);
+    color: white;
+}
+
+.heading {
+    font-size: 50px;
+    margin-top: 50px;
+    color: #21abb8;
+    text-shadow: 10px 10px 3px rgba(5, 5, 5,0.5) ;
+}
+
+.container {
+    max-width: 900PX;
+    margin: 0 auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    color:#0e6cbe;
+}
+
+input:focus {
+    outline-color: rgba(5, 122, 255, 0.283);
+}
+
+input , textarea {
+    max-width: 560px;
+    margin: 6px;
+    padding: 6px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.apply-box {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 10px 9px rgb(63, 60, 60);
+}
+
+.button-contanior {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.button {
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    
+}
+
+.button:hover {
+    background-color: #0569ff;
+    text-decoration: none;
+    border: 2px solid rgb(48, 48, 48);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.logo {
+    font-size: 35px;
+    padding:  10px;
+    background-color: rgba(131, 86, 47, 0.358);
+}
+
+
+.logo a{
+    text-decoration: none;
+    padding:  5px;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo a i{
+    color: black;
+    opacity: 0,9;
+    
+}
+.logo a:hover{
+    background-color: #111;
+    transition: 0.5s;
+    
+}
+.logo a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.foot {
+    height: 35px;
+    padding: 10px;
+    background-color: rgb(60, 57, 57);
+    color: white;
+}
+
+
