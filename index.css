@@ -12,6 +12,8 @@ body {
 
 p {
     color:white;
+    width: 70%;
+    margin: auto;
 }
 
 a {
@@ -25,7 +27,7 @@ a {
 
 .head ul {
     display: flex;
-    float: right;
+    justify-content: end;
     list-style: none;
 }
 
@@ -47,8 +49,8 @@ a {
 }
 
 .body-screen {
-    height: 100vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
     display: inline;
 }
 
@@ -59,7 +61,7 @@ a {
 
 }
 
-.photo {
+.photo1 {
     background-image: url(/portfolio/WhatsApp\ Image\ 2024-08-29\ at\ 08.15.01_e1fce040.jpg);
     background-size: cover;
     height: 350px;
@@ -67,8 +69,12 @@ a {
     border: 10px solid black;
     border-radius: 50%;
     display: inline-block;
-    margin: 70px;
-    overflow: hidden;
+}
+.photo {
+    width: 100%;
+    display: inline-block;
+    margin: 70px  0;
+   
 }
 
 .logo {
@@ -99,17 +105,30 @@ a {
 }
 
 .foot {
-    height: 35px;
     padding: 10px;
     background-color: rgb(60, 57, 57);
     color: white;
 }
 
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:550px) {
     .photo {
-        max-width: 250px;
-        max-height: 250px;
-        border: 6px solid black;
+        margin: 30px 0;
+        width: 100%;
+    }
+    
+    .photo1 {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .head ul {
+       justify-content: center;
+       margin-top: 10px;
+    }
+
+    p {
+        padding: 0 10px;
     }
 }

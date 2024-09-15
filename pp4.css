@@ -21,7 +21,7 @@ body {
 
 .head ul {
     display: flex;
-    float: right;
+    justify-content: end;
     list-style: none;
 }
 
@@ -47,19 +47,19 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 100%;
     width: 100%;
 }
 
 .thankyou {
-    height: 400px;
+    height: 360px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.728);
-    text-align: center;
     font-size: 2rem;
-    padding: 60px;
+    padding: 60px 30px;
     border-radius: 20px;
     box-shadow: 10px 10px 20px;
+    margin: 25px 15px
 }
 
 .logo {
@@ -95,4 +95,18 @@ a:hover {
     padding: 10px;
     background-color: rgb(60, 57, 57);
     color: white;
+}
+
+@media screen and (max-width:450px) {
+
+    .head ul {
+       justify-content: center;
+       margin-top: 10px;
+    }
+    .thankyou {
+        padding: auto ;
+        width: 100%;
+        font-size: 1.5rem;
+        margin: 30px;
+    }
 }
