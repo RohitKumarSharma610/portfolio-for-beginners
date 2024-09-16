@@ -62,7 +62,7 @@ a {
 }
 
 .photo1 {
-    background-image: url(/portfolio/img\ rohit.jpg);
+    background-image: url("img\ rohit.jpg");
     background-size: cover;
     height: 350px;
     width: 350px;
